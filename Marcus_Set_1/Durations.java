@@ -1,10 +1,15 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Durations {
     public static void main(String[] args){
-        int seconds = 500;
+        Scanner scanman = new Scanner(System.in);
+        System.out.println("How many seconds?: ");
+        
+        int seconds = Integer.parseInt(scanman.nextLine());
         System.out.println(Arrays.toString(convert_to_timeframe(seconds)));
 
+        scanman.close();
     }
 
     public static int[] convert_to_timeframe(int second) {
