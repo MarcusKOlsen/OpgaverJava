@@ -4,13 +4,14 @@ public class opgave_1 {
         // 1 Typer, operatorer, variable og udtryk
 
         //  1.1
-        short age;
-        float weight;
-        int income;
-        byte civil_state;
-        long distance_to_earth;
-        long distance_between_objects;
-
+        /* 
+        short age = 1;
+        float weight = 0.4f;
+        int income = 20;
+        byte civil_state = 2;
+        long distance_to_earth = 1000;
+        long distance_between_objects = 2000;
+        */
         System.out.println("Opgave 1.2: ");
         opgave1_2();
 
