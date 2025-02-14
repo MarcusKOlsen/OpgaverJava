@@ -6,10 +6,10 @@ public class Variables {
         byte answer = 42;
         char yoyo = k;
 
-        system.out.println ("the int elligence is: "Integer.toString(elligence));
-        system.out.println (trouble" trouble");
-        system.out.println ("Island is : "island);
-        system.out.println ("The answer is:  " );
+        //system.out.println ("the int elligence is: "Integer.toString(elligence));
+       // system.out.println (trouble" trouble");
+       // system.out.println ("Island is : "island);
+       // system.out.println ("The answer is:  " );
         system.out.println ("o"yoyo);
     }
 
