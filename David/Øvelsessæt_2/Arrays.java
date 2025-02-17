@@ -1,5 +1,6 @@
 package David.Øvelsessæt_2;
 
+import java.util.ArrayList;
 
 public class Arrays {
     public static int sum(int[] v){
@@ -73,14 +74,22 @@ public class Arrays {
     public static int[] divisors(int n){
        
         int i = 1;
-        
+        ArrayList<Integer> divisor = new ArrayList<>();
         while(i <= n/2){
             if(n%i == 0){
                 divisor.add(i);
             }
             i++;
             }
-        int[] array = divisor.toArray();
-        return array; 
+        int[] end = new int[divisor.size()];
+        for(int j = 0; j < divisor.size(); j++){
+            end[j] = divisor.get(j);
+        }
+            
+        return end; 
+    }
+
+    public static int max(int[] v){
+        
     }
 }
