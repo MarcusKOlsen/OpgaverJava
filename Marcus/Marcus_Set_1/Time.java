@@ -1,7 +1,14 @@
 import java.util.Scanner;
 
 public class Time {
-    
+    /**
+     * 
+     * @param hours
+     * @param minutes
+     * @param seconds
+     * 
+     * Penis
+     */
     public static void main(String[] args) {
         Scanner scanman = new Scanner(System.in);
         System.out.println("How many hours? ");
@@ -17,7 +24,7 @@ public class Time {
         System.out.println(convert_to_seconds(hours, minutes, seconds));
         scanman.close();
     }
-    static int convert_to_seconds(int hour, int minute, int second) {
+    public static int convert_to_seconds(int hour, int minute, int second) {
         // Converts hours, minutes and seconds into a total in seconds
         return  (
                 (hour * 360) + 
