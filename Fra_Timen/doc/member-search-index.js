@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"Fra_Timen","c":"MyBoard","l":"isFree(int)"},{"p":"Fra_Timen","c":"MyBoard","l":"MyBoard()","u":"%3Cinit%3E()"},{"p":"Fra_Timen","c":"MyPlayer","l":"O"},{"p":"Fra_Timen","c":"MyPlayer","l":"valueOf(String)","u":"valueOf(java.lang.String)"},{"p":"Fra_Timen","c":"MyPlayer","l":"values()"},{"p":"Fra_Timen","c":"MyPlayer","l":"X"}];updateSearchResults();
