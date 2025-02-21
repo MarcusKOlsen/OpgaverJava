@@ -12,3 +12,4 @@ public class random_list {
     Collections.shuffle(randomList);
     return randomList;
 }
+}
