@@ -24,8 +24,6 @@ public class Numbers {
             return sumBetween(m+1, n);
         }
     }
-
-
     public static int sumEven(int m, int n){
         m++;
         if (m%2 == 1){
