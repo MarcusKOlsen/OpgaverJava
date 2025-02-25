@@ -16,7 +16,6 @@ public class Numbers {
             return sumUpTo(n-1) + n-1;
         }
     }
-
     public static int sumBetween(int m, int n){
         if (m >= n ){
             return 0;
