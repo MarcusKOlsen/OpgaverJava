@@ -114,7 +114,7 @@ public class Image {
 
     public static void main(String[] args){
         Image here = Image.fromFile("C:\\Users\\marcu\\Desktop\\cat.jpg");
-        here = ImageUtils.flip_horizontal(here);
+        // here = ImageUtils.flip_vertical(here);
         here.display();
     }
 }

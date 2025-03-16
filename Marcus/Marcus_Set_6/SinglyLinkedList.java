@@ -4,6 +4,10 @@ public class SinglyLinkedList<E> implements MList<E> {
     Node head;
     int listlength = 1;
 
+    Location penis = new Location(1,5,"din mor" );
+
+    penis.add_location("din far");
+
     class Node {
         E value;
         Node next = null;
@@ -105,6 +109,10 @@ public class SinglyLinkedList<E> implements MList<E> {
         }
         return working.value;
     }
-    // public MListIterator<E> iterator(){}
+    @Override
+    public MListIterator<E> iterator() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'iterator'");
+    }
 }
 
