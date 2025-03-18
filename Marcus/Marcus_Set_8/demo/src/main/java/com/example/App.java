@@ -12,6 +12,7 @@ import javafx.stage.Stage;
  */
 public class App extends Application {
 
+    @SuppressWarnings("exports")
     @Override
     public void start(Stage stage) {
         var javaVersion = SystemInfo.javaVersion();

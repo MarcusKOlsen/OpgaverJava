@@ -18,6 +18,7 @@ public class PushCounter extends Application {
 	 * Presents a GUI containing a button and a label that displays how many
 	 * times the button is pushed.
 	 */
+	@SuppressWarnings("exports")
 	@Override
 	public void start(Stage stage) {
 		count = 0;
