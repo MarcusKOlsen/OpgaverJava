@@ -1,12 +1,6 @@
-
-
 public class SinglyLinkedList<E> implements MList<E> {
     Node head;
     int listlength = 1;
-
-    Location penis = new Location(1,5,"din mor" );
-
-    penis.add_location("din far");
 
     class Node {
         E value;

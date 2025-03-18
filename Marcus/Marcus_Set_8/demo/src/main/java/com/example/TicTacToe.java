@@ -74,7 +74,7 @@ public class TicTacToe extends Application {
 		{
 			for(int j = 0; j < TIC_TAC_TOE_SIZE; j++)
 			{
-				if(bts[i][j].getText() == Character.toString(current_player)) {
+				if(bts[i][j].getText().equals(Character.toString(current_player))) {
 					amount++;
 				}
 			}
@@ -90,9 +90,8 @@ public class TicTacToe extends Application {
 		{
 			for(int j = 0; j < TIC_TAC_TOE_SIZE; j++)
 			{
-				int row = GridPane.getRowIndex(bts[j][i]);
-    			int col = GridPane.getColumnIndex(bts[j][i]);
-				if(bts[j][i].getText() == Character.toString(current_player)) {
+
+				if(bts[j][i].getText().equals(Character.toString(current_player))) {
 					amount++;
 				}
 			}
