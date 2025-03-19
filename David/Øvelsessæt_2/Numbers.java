@@ -112,7 +112,6 @@ public class Numbers {
         }
         return amount;
     }
-
     public static boolean isPrime(int n){
         return (countDivisors(n) == 0);
     }
@@ -142,7 +141,6 @@ public class Numbers {
         }
     return difference;    
     }
-
     public static int lcm(int m, int n){
         return m*n/gcd(m,n);
     }

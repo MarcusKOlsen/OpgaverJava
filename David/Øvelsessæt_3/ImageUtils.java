@@ -57,4 +57,21 @@ public class ImageUtils {
     public static Image rotateRight(Image image){
         return rotateLeft(rotateLeft(rotateLeft(image)));
     }
+    public static Image stretchHorizontal(Image image){
+        int height = image.height();
+        int width = 2*image.width();
+
+        Image stretched = new Image(width, height);
+        for (int col = 0; col < width; col ++){
+            for (int row = 0; row < height; row++){
+                Color pixel = image.pixel(col,row/2);
+
+                stretched.setPixel(width,height,pixel);
+            }
+        }
+        return stretched;
+    }
+    // }
+
+
 }
