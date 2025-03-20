@@ -16,7 +16,6 @@ public class Numbers {
             return sumUpTo(n-1) + n-1;
         }
     }
-
     public static int sumBetween(int m, int n){
         if (m >= n ){
             return 0;
@@ -25,8 +24,6 @@ public class Numbers {
             return sumBetween(m+1, n);
         }
     }
-
-
     public static int sumEven(int m, int n){
         m++;
         if (m%2 == 1){
@@ -115,7 +112,6 @@ public class Numbers {
         }
         return amount;
     }
-
     public static boolean isPrime(int n){
         return (countDivisors(n) == 0);
     }
@@ -145,7 +141,6 @@ public class Numbers {
         }
     return difference;    
     }
-
     public static int lcm(int m, int n){
         return m*n/gcd(m,n);
     }

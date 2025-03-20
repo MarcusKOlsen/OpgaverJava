@@ -47,6 +47,7 @@ public class Image {
 
          return var2;
       } catch (IOException var6) {
+         System.out.println(var6);
          return null;
       }
    }
@@ -78,4 +79,11 @@ public class Image {
 
       JOptionPane.showMessageDialog((Component)null, new ImageIcon(var1));
    }
+   public static void main(String[] args){
+      Image godtBillede = Image.fromFile("C:\\Users\\Admin\\Desktop\\Godtbillede.jpg");
+  //    ImageUtils.stretchHorizontal(godtBillede);
+      godtBillede.display();
+
+   }
+   
 }
